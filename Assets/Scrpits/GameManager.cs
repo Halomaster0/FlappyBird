@@ -3,6 +3,13 @@ using UnityEngine;
 using UnityEngine.UI;
 public class GameManager : MonoBehaviour
 {
+    public AudioClip birdJump;
+    public AudioClip collect;
+    public AudioClip dead;
+    public AudioClip highscore;
+
+    private bool hs;
+
     public Player player;
 
     private int score;
@@ -25,7 +32,7 @@ public class GameManager : MonoBehaviour
 
         Application.targetFrameRate = 60;
         Pause();
-
+ 
     }
 
     private void Start()
@@ -83,6 +90,7 @@ public class GameManager : MonoBehaviour
         {
             PlayerPrefs.SetInt("HighScore", score);
             highscoreText.text = PlayerPrefs.GetInt("HighScore", 0).ToString();
+            SoundManager.highScore();
         }
 
 
