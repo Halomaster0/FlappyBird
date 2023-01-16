@@ -13,7 +13,6 @@ public class Player : MonoBehaviour
 	public GameManager script;
 	private void Awake()
 	{
-
 		spriteRenderer = GetComponent<SpriteRenderer>();
 
 	}
