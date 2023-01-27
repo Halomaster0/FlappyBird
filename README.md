@@ -5,7 +5,7 @@ Flappy Bird is a mobile game developed by the Vietnamese video game artist and p
 
 The game that I have created is an adaptation of flappy bird, to increase my understanding of game development and coding theories and capabilites.
 
-## The Keybinds For This Game Are As Follows:
+### The Keybinds For This Game Are As Follows:
 
 "SPACE" or "LEFT_MOUSE_BUTTON" to jump.
 
