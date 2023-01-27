@@ -6,7 +6,7 @@ Flappy Bird is a mobile game developed by the Vietnamese video game artist and p
 The game that I have created is an adaptation of flappy bird, to increase my understanding of game development and coding theories and capabilites.
 
 ## Play The Game Here:
-flappybird.dylansahota.com
+https://flappybird.dylansahota.com
 
 ### The Keybinds For This Game Are As Follows:
 
